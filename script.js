@@ -43,3 +43,9 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbxynHGDgm4U58zgm9pfGl
       })
       .catch(error => console.error('Error!', error.message))
   })
+// Dark,Light Mode Switch
+var theme=document.getElementById("theme-btn");
+localStorage.setItem("theme", "dark");
+theme.onclick = function(){
+    document.body.classList.toggle("light");
+}
