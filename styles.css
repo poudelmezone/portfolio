@@ -371,7 +371,7 @@ nav .nav-mark{
 @media only screen and (max-width:600px)
 {
     #header{
-        background-image: url(images/background.jpg);
+        background:var(--background);
     }
     .header-text{
         margin-top: 100%;
